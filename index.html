@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png"> -->
@@ -15,46 +16,58 @@
 
   <body>
     <header class="header">
-      <div class="header__top">
-        <div class="header__logo-box">
-          <h3 class="header__logo">
-            <span class="header__logo--main">the parlor</span>
-            <span class="header__logo--sub">by rs</span>
-          </h3>
+      <!-- <div class="navigation__fixed"> -->
+        <div class="header__top">
+          <div class="header__logo-box">
+            <h3 class="header__logo">
+              <span class="header__logo--main">the parlor</span>
+              <span class="header__logo--sub">by rs</span>
+            </h3>
+          </div>
+          <div class="header__btn-box">
+            <a class="btn btn--purple" href="#">Book Online</a>
+          </div>
         </div>
-        <div class="header__btn-box">
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item"><a href="#" class="navigation__link">home</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">welcome</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">services</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">contact</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">facials</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">waxing</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">series</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">about us</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">book online</a></li>
+          </ul>
+        </nav>
+      <!-- </div> -->
+      <div class="header__image-container">
+        <div class="header__text-box">
+          <h1 class="heading-primary">
+            <span class="heading-primary--main">The Parlor By RS</span>
+            <span class="heading-primary--sub">Release, Relax, Unwind</span>
+          </h1>
           <a class="btn btn--purple" href="#">Book Online</a>
         </div>
-      </div>
-      <nav class="navigation">
-        <ul class="navigation__list">
-          <li class="navigation__item"><a href="#" class="navigation__link">home</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link">welcome</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link">services</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link">contact</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link">facials</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link">waxing</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link">series</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link">about us</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link">book online</a></li>
-        </ul>
-      </nav>
-      <div class="header__image-container">
-        <h1>
-          <span>The Parlor By RS</span>
-          <span>Release, Relax, Unwind</span>
-        </h1>
       </div>
     </header>
 
     <main>
       <section class="section-welcome">
-        <div>
-          <div>picture</div>
-          <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis dui sed arcu consequat, quis fermentum tellus interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus ornare lorem, laoreet condimentum elit facilisis sed. Nulla pulvinar eu tortor sed consequat. Nunc velit lorem, viverra id enim nec, sodales facilisis augue. Integer nec lectus convallis nisi luctus commodo. Curabitur efficitur felis eu sapien convallis, eget mollis arcu vestibulum. Phasellus nec viverra lectus. Donec imperdiet pretium semper. Maecenas quis justo in augue finibus auctor.
+        <div class="row">
+          <div class="col-1-of-2">
+            <div>picture</div>
+          </div>
+          <div class="col-1-of-2">
+            <p>Welcome to the relaxing ambiance of Mauve Skin Care! Mauve promises a regal comfort and a personal touch during treatments that produce long-lasting results. Mauve’s therapeutic atmosphere is a wonderful way to unwind from the Silicon Valley’s hectic pace and to restore your mind, body and spirit.
 
-            Sed ut erat a leo porttitor laoreet at non massa. Ut et elit ut dolor mollis varius ac imperdiet justo. Praesent venenatis sodales justo sit amet mattis. Nullam eleifend sapien est, vitae molestie leo consequat sed. Donec urna lorem, mattis eu lorem eu, semper aliquam nulla. Sed quis ipsum sit amet nibh tempor ultricies vel sed arcu. Maecenas ullamcorper ante elit.</p>
+
+At Mauve, we pride ourselves on our personal approach to your individual needs—in fact, your needs drive our Skin Care Philosophy. Since skin care differs from person to person, we strive to develop individualized regimens by carefully listening to concerns, discussing treatment goals, and sharing tips on proper skin care.
+We also combine the latest science with advanced technology and corrective products to offer unique, customized, and result-oriented treatments.
+
+
+Our mission is to leave your skin glowing and you feeling healthier and happier!</p>
           </div>
         </div>
       </section>

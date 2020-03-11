@@ -3,13 +3,34 @@
   &:link,
   &:visited {
     text-decoration: none;
-    font-size: $default-font-size;
-    padding: 1rem 2rem;
+    padding: .7rem 2.3rem;
+    display: inline-block;
+    transition: all .2s;
     font-weight: 400;
+    font-size: $default-font-size;
+
+    border: none;
+    cursor: pointer;
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 1rem 2rem rgba($color-black, .2);
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 .5rem 1rem rgba($color-black, .2);
   }
 
   &--purple {
     background-color: #CC66FF;
     color: $color-white;
+
+    &:hover {
+      background-color: #bb33ff;
+    }
   }
 }
