@@ -2,15 +2,44 @@
   height: 100vh;
   position: relative;
 
-  &__logo-box {
-    position: absolute;
-    top: 4rem;
-    left: 4rem;
+  &__top {
+    @include clearfix;
+  }
+
+  &__logo {
+    &-box {
+      text-transform: uppercase;
+    }
+    // position: absolute;
+    // top: 4rem;
+    // left: 4rem;
+    float: left;
+    margin-left: 4rem;
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+    background-color: #FDFAF5;
+    padding: .5rem 1rem;
+
+    &--main {
+      font-weight: 700;
+    }
+
+    &--sub {
+      font-weight: 300;
+    }
   }
 
   &__btn-box {
-    position: absolute;
-    top: 4rem;
-    right: 4rem;
+    // position: absolute;
+    // top: 4rem;
+    // right: 4rem;
+    float: right;
+  }
+
+  &__image-container {
+    height: 85vh;
+    background-image: url(../img/facial-bg.jpg);
+    background-size: cover;
+    background-position: top;
   }
 }
