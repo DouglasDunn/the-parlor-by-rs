@@ -111,7 +111,6 @@ body {
 
 .paragraph {
   font-size: 1.6rem;
-  color: #777;
   font-weight: 300; }
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
@@ -121,6 +120,9 @@ body {
 
 .u-margin-bottom-small {
   margin-bottom: 1.5rem !important; }
+
+.u-margin-bottom-small-2 {
+  margin-bottom: 2rem !important; }
 
 .u-margin-bottom-medium {
   margin-bottom: 4rem !important; }
@@ -145,8 +147,12 @@ body {
   padding-right: 4rem !important; }
 
 .u-padding-horizontal-big {
-  padding-left: 8rem !important;
-  padding-right: 8rem !important; }
+  padding-left: 11rem !important;
+  padding-right: 11rem !important; }
+
+.no-margin {
+  max-width: none !important;
+  margin: 0 !important; }
 
 .btn, .btn:link, .btn:visited {
   text-decoration: none;
@@ -173,10 +179,23 @@ body {
   .btn--purple:hover {
     background-color: #bb33ff; }
 
+.btn-ghost:link, .btn-ghost:visited {
+  border: 1px solid #a2ac87;
+  color: #a2ac87;
+  padding-left: 5rem;
+  padding-right: 5rem; }
+
+.btn-ghost:hover, .btn-ghost:active {
+  background-color: #a2ac87;
+  border: 1px solid #a2ac87;
+  color: #fff; }
+
 .flower-image {
+  background-image: url(../img/flower.jpg);
   width: 100%;
-  margin-left: -2rem;
-  margin-bottom: 7.5px; }
+  height: 60vh;
+  background-size: cover;
+  background-position: top; }
 
 .massage-image {
   width: 100%;
@@ -184,7 +203,8 @@ body {
 
 .description {
   padding-top: 4rem;
-  padding-bottom: 4rem; }
+  padding-bottom: 4rem;
+  padding-right: 6rem; }
 
 .row {
   max-width: 114rem;
@@ -289,3 +309,7 @@ body {
 
 .section-services {
   height: 60vh; }
+
+.section-contact {
+  background-color: #9e68ab;
+  color: #fff; }

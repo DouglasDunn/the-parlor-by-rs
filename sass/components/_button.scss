@@ -33,4 +33,19 @@
       background-color: #bb33ff;
     }
   }
+
+  &-ghost:link,
+  &-ghost:visited {
+    border: 1px solid #a2ac87;
+    color: #a2ac87;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  &-ghost:hover,
+  &-ghost:active {
+    background-color: #a2ac87;
+    border: 1px solid #a2ac87;
+    color: #fff;
+  }
 }

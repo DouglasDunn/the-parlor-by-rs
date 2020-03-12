@@ -1,6 +1,7 @@
 .u-center-text { text-align: center !important; }
 
 .u-margin-bottom-small { margin-bottom: 1.5rem !important; }
+.u-margin-bottom-small-2 { margin-bottom: 2rem !important; }
 .u-margin-bottom-medium {
     margin-bottom: 4rem !important;
 
@@ -25,6 +26,11 @@
   padding-right: 4rem !important;
 }
 .u-padding-horizontal-big {
-  padding-left: 8rem !important;
-  padding-right: 8rem !important; 
+  padding-left: 11rem !important;
+  padding-right: 11rem !important;
+}
+
+.no-margin {
+  max-width: none !important;
+  margin: 0 !important;
 }
