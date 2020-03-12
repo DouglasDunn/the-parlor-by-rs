@@ -54,15 +54,14 @@ body {
   color: #000; }
 
 .heading-primary {
+  font-family: 'Old Standard TT', serif;
   color: #fff;
-  text-transform: uppercase;
   backface-visibility: hidden;
-  margin-bottom: 6rem; }
+  margin-bottom: 2rem; }
   .heading-primary--main {
     display: block;
     font-size: 6rem;
-    font-weight: 400;
-    letter-spacing: 3.5rem;
+    font-weight: normal;
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out;
@@ -75,10 +74,10 @@ body {
         letter-spacing: 1rem;
         font-family: 5rem; } }
   .heading-primary--sub {
+    font-style: italic;
     display: block;
     font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 1.75rem;
+    font-weight: normal;
     animation: moveInRight 1s ease-out; }
     @media only screen and (max-width: 37.5em) {
       .heading-primary--sub {
@@ -110,19 +109,45 @@ body {
   text-transform: uppercase; }
 
 .paragraph {
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  color: #777;
+  font-weight: 300; }
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
 
 .btn, .btn:link, .btn:visited {
   text-decoration: none;
+  padding: .7rem 2.3rem;
+  display: inline-block;
+  transition: all .2s;
+  font-weight: 400;
   font-size: 1.6rem;
-  padding: 1rem 2rem;
-  font-weight: 400; }
+  border: none;
+  cursor: pointer; }
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+.btn:active, .btn:focus {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
 .btn--purple {
   background-color: #CC66FF;
   color: #fff; }
+  .btn--purple:hover {
+    background-color: #bb33ff; }
+
+.flower-image {
+  width: 100%;
+  margin-left: -2rem;
+  margin-bottom: -5px; }
+
+.description {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
 
 .row {
   max-width: 114rem;
@@ -187,10 +212,16 @@ body {
   .header__btn-box {
     float: right; }
   .header__image-container {
-    height: 85vh;
-    background-image: url(../img/facial-bg.jpg);
+    height: 87vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/facial-bg.jpg);
     background-size: cover;
-    background-position: top; }
+    background-position: top;
+    background-attachment: fixed;
+    position: relative; }
+  .header__text-box {
+    position: absolute;
+    top: 30%;
+    left: 15%; }
 
 .navigation {
   margin-top: 1rem;
@@ -207,3 +238,11 @@ body {
     color: #000;
     text-decoration: none;
     text-transform: uppercase; }
+
+.section-welcome {
+  background-color: #fff;
+  margin-bottom: -2vh; }
+
+.no-margin {
+  max-width: 124rem;
+  margin: 0; }

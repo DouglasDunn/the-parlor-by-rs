@@ -104,14 +104,48 @@ body {
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
 .heading-tertiary {
-  font-size: 1.6rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 300;
   text-transform: uppercase; }
 
 .paragraph {
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  color: #777;
+  font-weight: 300; }
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
+
+.u-center-text {
+  text-align: center !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important; }
+  @media only screen and (max-width: 56.25em) {
+    .u-margin-bottom-medium {
+      margin-bottom: 3rem !important; } }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important; }
+  @media only screen and (max-width: 56.25em) {
+    .u-margin-bottom-big {
+      margin-bottom: 5rem !important; } }
+
+.u-margin-top-big {
+  margin-top: 8rem !important; }
+
+.u-margin-top-huge {
+  margin-top: 10rem !important; }
+
+.u-padding-horizontal-medium {
+  padding-left: 4rem !important;
+  padding-right: 4rem !important; }
+
+.u-padding-horizontal-big {
+  padding-left: 8rem !important;
+  padding-right: 8rem !important; }
 
 .btn, .btn:link, .btn:visited {
   text-decoration: none;
@@ -137,6 +171,19 @@ body {
   color: #fff; }
   .btn--purple:hover {
     background-color: #bb33ff; }
+
+.flower-image {
+  width: 100%;
+  margin-left: -2rem;
+  margin-bottom: 7.5px; }
+
+.massage-image {
+  width: 100%;
+  margin-bottom: -5px; }
+
+.description {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
 
 .row {
   max-width: 114rem;
@@ -201,7 +248,7 @@ body {
   .header__btn-box {
     float: right; }
   .header__image-container {
-    height: 85vh;
+    height: 87vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/facial-bg.jpg);
     background-size: cover;
     background-position: top;
@@ -227,3 +274,17 @@ body {
     color: #000;
     text-decoration: none;
     text-transform: uppercase; }
+
+.section-welcome {
+  background-color: #fff;
+  margin-bottom: -2vh; }
+
+.section-picture {
+  height: 70vh;
+  background-image: url(../img/massage.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed; }
+
+.section-services {
+  height: 60vh; }

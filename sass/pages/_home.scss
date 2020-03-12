@@ -1,0 +1,21 @@
+.section-welcome {
+  background-color: $color-white;
+  margin-bottom: -2vh;
+  // margin-left: -20rem;
+  // margin-right: -20rem;
+}
+
+.section-picture {
+  height: 70vh;
+  background-image: url(../img/massage.jpg);
+  // background-image: url(../img/facial-bg.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  // position: relative;
+}
+
+.section-services {
+  height: 60vh;
+  // margin-top: 20rem;
+}
