@@ -85,24 +85,17 @@ body {
         letter-spacing: .5rem; } }
 
 .heading-secondary {
-  font-size: 3.5rem;
+  font-size: 5rem;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 200;
   display: inline-block;
-  background-image: linear-gradient(to right, #7ed56f, #28b485);
-  -webkit-background-clip: text;
-  color: transparent;
-  letter-spacing: .2rem;
-  transition: all .2s; }
+  letter-spacing: .1rem; }
   @media only screen and (max-width: 56.25em) {
     .heading-secondary {
       font-size: 3rem; } }
   @media only screen and (max-width: 37.5em) {
     .heading-secondary {
       font-size: 2.5rem; } }
-  .heading-secondary:hover {
-    transform: skewY(2deg) skewX(15deg) scale(1.1);
-    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
 .heading-tertiary {
   font-size: 2rem;
@@ -115,8 +108,15 @@ body {
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
 
+.contact-text {
+  font-size: 1.6rem;
+  font-weight: 300; }
+
 .u-center-text {
   text-align: center !important; }
+
+.u-right-text {
+  text-align: right !important; }
 
 .u-margin-bottom-small {
   margin-bottom: 1.5rem !important; }
@@ -142,6 +142,15 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
+.u-margin-left-small {
+  margin-left: 2rem !important; }
+
+.u-margin-left-big {
+  margin-left: 8rem !important; }
+
+.u-margin-left-huge {
+  margin-left: 16rem !important; }
+
 .u-padding-horizontal-medium {
   padding-left: 4rem !important;
   padding-right: 4rem !important; }
@@ -150,9 +159,18 @@ body {
   padding-left: 11rem !important;
   padding-right: 11rem !important; }
 
+.u-padding-right-small {
+  padding-right: 2rem !important; }
+
+.u-border-right {
+  border-right: 1px solid #fff !important; }
+
 .no-margin {
   max-width: none !important;
   margin: 0 !important; }
+
+.u-inline {
+  display: inline-block; }
 
 .btn, .btn:link, .btn:visited {
   text-decoration: none;
@@ -313,3 +331,7 @@ body {
 .section-contact {
   background-color: #9e68ab;
   color: #fff; }
+
+.section-contact {
+  height: 50vh;
+  padding: 7rem 0; }
