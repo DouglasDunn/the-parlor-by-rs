@@ -121,14 +121,15 @@
           </div>
           <div class="col-1-of-2">
             <form class="form">
-              <input type="text" class="form__input" placeholder="Name" id="name" required>
-              <label for="name">Name</label>
+              <input type="text" class="form__input form__input-name u-margin-right-small" placeholder="Name" id="name" required>
+              <!-- <label for="name">Name</label> -->
 
-              <input type="email" placeholder="Email">
-              <input type="text" placeholder="Subject">
-              <input type="text" placeholder="Full name">
-              <textarea name="message" placeholder="Message"></textarea>
-              <button>Send</button>
+              <input type="email" class="form__input form__input-email" placeholder="Email">
+              <input type="text" class="form__input" placeholder="Subject">
+              <textarea name="message" class="form__textarea" placeholder="Message" rows="3"></textarea>
+              <div>
+                <button class="btn-send u-margin-left-huge-2">Send</button>
+              </div>
             </form>
           </div>
         </div>

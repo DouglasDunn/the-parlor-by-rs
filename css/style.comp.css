@@ -150,6 +150,12 @@ body {
 .u-margin-left-huge {
   margin-left: 16rem !important; }
 
+.u-margin-left-huge-2 {
+  margin-left: 20rem !important; }
+
+.u-margin-right-small {
+  margin-right: 2rem !important; }
+
 .u-padding-horizontal-medium {
   padding-left: 4rem !important;
   padding-right: 4rem !important; }
@@ -169,7 +175,7 @@ body {
   margin: 0 !important; }
 
 .u-inline {
-  display: inline-block; }
+  display: inline-block !important; }
 
 .btn, .btn:link, .btn:visited {
   text-decoration: none;
@@ -206,6 +212,47 @@ body {
   background-color: #a2ac87;
   border: 1px solid #a2ac87;
   color: #fff; }
+
+.btn-send {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 300;
+  outline: none; }
+
+.form__input {
+  font-size: 1.5rem;
+  font-family: inherit;
+  color: inherit;
+  background-color: #9e68ab;
+  border: none;
+  border-bottom: 1px solid #fff;
+  width: 84%;
+  margin-bottom: 2rem; }
+  .form__input-name {
+    width: 40%; }
+  .form__input-email {
+    width: 40%; }
+  .form__input:focus {
+    outline: none; }
+
+.form__textarea {
+  font-size: 1.5rem;
+  font-family: inherit;
+  color: inherit;
+  background-color: #9e68ab;
+  border: none;
+  border-bottom: 1px solid #fff;
+  width: 84%;
+  margin-bottom: 1rem; }
+  .form__textarea:focus {
+    outline: none; }
+
+::placeholder {
+  color: #fff;
+  font-weight: 300; }
 
 .flower-image {
   background-image: url(../img/flower.jpg);
@@ -329,8 +376,6 @@ body {
 
 .section-contact {
   background-color: #9e68ab;
-  color: #fff; }
-
-.section-contact {
+  color: #fff;
   height: 50vh;
   padding: 7rem 0; }

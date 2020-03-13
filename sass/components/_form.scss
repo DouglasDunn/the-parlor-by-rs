@@ -1,0 +1,45 @@
+.form {
+  &__input {
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    // padding: 1.5rem 2rem;
+    background-color: #9e68ab;
+    border: none;
+    border-bottom: 1px solid $color-white;
+    width: 84%;
+    margin-bottom: 2rem;
+
+    &-name {
+      width: 40%;
+    }
+
+    &-email {
+      width: 40%;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__textarea {
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    background-color: #9e68ab;
+    border: none;
+    border-bottom: 1px solid $color-white;
+    width: 84%;
+    margin-bottom: 1rem;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+::placeholder {
+  color: $color-white;
+  font-weight: 300;
+}

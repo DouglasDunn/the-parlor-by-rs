@@ -24,6 +24,9 @@
 .u-margin-left-small { margin-left: 2rem !important; }
 .u-margin-left-big { margin-left: 8rem !important; }
 .u-margin-left-huge { margin-left: 16rem !important; }
+.u-margin-left-huge-2 { margin-left: 20rem !important; }
+
+.u-margin-right-small { margin-right: 2rem !important; }
 
 .u-padding-horizontal-medium {
   padding-left: 4rem !important;
@@ -48,5 +51,5 @@
 }
 
 .u-inline {
-  display: inline-block;
+  display: inline-block !important;
 }
