@@ -164,6 +164,10 @@ body {
   padding-left: 11rem !important;
   padding-right: 11rem !important; }
 
+.u-padding-vertical-medium {
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important; }
+
 .u-padding-right-small {
   padding-right: 2rem !important; }
 
@@ -269,6 +273,11 @@ body {
   padding-top: 4rem;
   padding-bottom: 4rem;
   padding-right: 6rem; }
+
+.footer {
+  height: 8vh;
+  font-size: 1.5rem;
+  font-weight: 300; }
 
 .row {
   max-width: 114rem;
